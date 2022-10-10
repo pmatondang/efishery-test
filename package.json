@@ -1,0 +1,59 @@
+{
+  "name": "efishery-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.1.1",
+    "@tailwindcss/postcss7-compat": "^2.1.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "autoprefixer": "9",
+    "bootstrap": "^5.2.2",
+    "date-fns": "^2.20.1",
+    "json-reactform": "^0.1.14",
+    "postcss": "7",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.5.0",
+    "react-data-table-component": "^6.11.7",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.12.1",
+    "react-redux": "^7.2.3",
+    "react-scripts": "4.0.3",
+    "react-table": "^7.6.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "stein-js-client": "^0.0.2",
+    "styled-components": "^5.2.3",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
