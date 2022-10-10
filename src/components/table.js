@@ -230,12 +230,19 @@ const Table = (props) => {
   const layoutFilter = () => {
     return (
       <div className="w-full xl:flex-row lg:flex-row mb-4 xl:items-end lg:items-end justify-between pt-4">
-        <p style={{ fontSize: '30px' }}> Data Harga Perikanan Indonesia </p>
-        <p style={{ fontSize: '20px' }}> Kamu dapat menambahkan data baru disini</p>
+        <div>
+          <p style={{ fontSize: '30px' }}> Data Harga Perikanan Indonesia </p>
+          <p style={{ fontSize: '20px' }}> Kamu dapat menambahkan data baru disini</p>
+        </div>
+        <br></br>
 
-        <button onClick={() => handleModalOpen()} class="bg-green-400 active:bg-red-500 text-white active:text-black py-2 px-4 mx-auto rounded-lg shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 ..." type="button">
-          Tambah Komoditas
-        </button>
+        <div>
+          <button onClick={() => handleModalOpen()} class="bg-green-400 active:bg-red-500 text-white active:text-black py-2 px-4 mx-auto rounded-lg shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 ..." type="button">
+            Tambah Komoditas
+          </button>
+        </div>
+        <br></br>
+
         <hr />
 
         <div className="w-full flex flex-col xl:flex-row lg:flex-row mb-4 items-start xl:items-end lg:items-end justify-between pt-4">
